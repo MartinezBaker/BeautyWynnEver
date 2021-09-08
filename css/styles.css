@@ -1,0 +1,133 @@
+#intro {
+    background-image: url(../images/cropped-bg-1.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+#intro-title {
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size: 400%;
+    margin-top: 12%;
+    margin-left: 4%;
+    text-align: center;
+    
+    
+    
+}
+
+#intro-sub {
+    font-family: 'Allison', cursive;
+    color: red;
+    font-size: 550%;
+    text-align: center;
+    margin-top: 3%;
+   
+}
+
+.button {
+    font-family: 'DM Serif Display', serif;
+    border-radius: 18px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    border: white solid thin;
+    padding: 7px;
+    margin-top: 3%;
+    margin-left: 45%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.bg-1 {
+     background-color: black;
+    background-image: url(../images/color_temp_block_1600x.gif); 
+    background-size: 700px; 
+    background-repeat: no-repeat; 
+    background-position-x: center; 
+    background-attachment: fixed;
+    height: 600px;
+    
+   
+}
+
+.bg-2 {
+    background-image: url(../images/makeup-1195895.jpg);
+     background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 1100px;
+}
+
+.main-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 59px;
+  color: white;
+  text-align: center;
+  padding-top:27%;
+}
+
+.main-sub {
+  font-family: 'Allison', cursive;
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  margin-right: 0%;
+  
+}
+
+.navbar {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.nav-name{ 
+  color:black;
+  font-family: 'DM Serif Display', serif;
+}
+
+.nav-name:hover{
+  color:red;
+}
+
+html, body {
+  overflow-x: unset;
+}
+
+.card-header {
+  font-family: 'DM Serif Display', serif; 
+  color: white;
+  background-color: black;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
+}
+
+.shadow-img {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); 
+}
+
