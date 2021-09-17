@@ -154,6 +154,10 @@
   color:red;
 }
 
+.navbar-brand {
+  border-radius: 50px;
+}
+
 html, body {
   overflow-x: unset;
 }
@@ -201,7 +205,7 @@ html, body {
   background-color:rgb(247, 244, 241)
 }
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
   font-family: 'DM Serif Display', serif; 
 }
 
@@ -234,8 +238,6 @@ strong {
   margin-left: 35%;
 }
 
-
-
 .btn {
   color: white;
   background-color: black;
@@ -244,11 +246,24 @@ strong {
 }
 
 footer {
-  padding: 110px;
+  padding: 70px;
   background-color: black;
   background-image:  url(../images/footerimg.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   margin-top: 3%;
+  color:white;
+  border-top:  red solid;
 }
+
+.email {
+  color:white;
+}
+
+.email:hover {
+  color:red;
+}
+
+
+
