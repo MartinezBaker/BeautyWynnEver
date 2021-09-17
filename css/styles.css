@@ -1,5 +1,8 @@
 #intro {
-    background-image: url(../images/cropped-bg-1.jpg); 
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/cropped-bg-1.jpg); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -36,6 +39,11 @@
     padding: 7px;
     margin-top: 3%;
     margin-left: 45%;
+    
+}
+
+.button:hover {
+  border: red solid thin;
 }
 
 .button span {
@@ -52,43 +60,76 @@
   top: 0;
   right: -20px;
   transition: 0.5s;
+  
 }
 
 .button:hover span {
   padding-right: 25px;
+  color: red;
+  
 }
 
 .button:hover span:after {
   opacity: 1;
   right: 0;
+  color:red;
+  
+}
+
+.button:focus {
+  outline: none;
+}
+
+#bookMeButton:focus {
+  outline: none;
+}
+
+#bookMeButton {
+  background-color: black;
+  color:white;
+  font-family: 'DM Serif Display', serif;
+  border-radius: 11px;
+  padding: 5px;
+  
+  
+}
+
+#bookMeButton:hover{
+  color:red
 }
 
 .bg-1 {
-     background-color: black;
-    background-image: url(../images/color_temp_block_1600x.gif); 
+    background-color: black;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/color_temp_block_1600x.gif); 
     background-size: 700px; 
     background-repeat: no-repeat; 
     background-position-x: center; 
     background-attachment: fixed;
     height: 600px;
+    width: auto;
     
    
 }
 
 .bg-2 {
     background-image: url(../images/makeup-1195895.jpg);
-     background-size: cover; 
+    background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
-    height: 1100px;
+    height: 100%;
+    
 }
 
 .main-title {
   font-family: 'DM Serif Display', serif;
-  font-size: 59px;
+  font-size: 52px;
   color: white;
   text-align: center;
-  padding-top:27%;
+  padding-top:33%;
+  
 }
 
 .main-sub {
@@ -123,6 +164,25 @@ html, body {
   background-color: black;
 }
 
+.modal-header {
+  color: white;
+  background-color: black;
+}
+
+.modal-content {
+  background-image:linear-gradient(
+      rgba(87, 82, 82, 0.5),
+      rgba(87, 82, 82, 0.5)),  url(../images/powderbrush-1184842.jpg);
+  background-color: rgb(223, 215, 215);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  
+}
+
+
+
 .card {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
 }
@@ -131,3 +191,64 @@ html, body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); 
 }
 
+
+.img-card {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  background-color:rgb(247, 244, 241)
+}
+
+h1, h2, h3 {
+  font-family: 'DM Serif Display', serif; 
+}
+
+.header {
+  border: solid thin white;
+  border-radius: 2%;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  align-self: center;
+  justify-self: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+
+.services-card {
+  color:white;
+  border: solid thin white;
+  background-color: black;
+  text-align: center;
+}
+
+strong {
+  color: red;
+}
+
+.carousel { 
+  border: solid black thin;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  margin-left: 35%;
+}
+
+
+
+.btn {
+  color: white;
+  background-color: black;
+  border: black;
+  
+}
+
+footer {
+  padding: 110px;
+  background-color: black;
+  background-image:  url(../images/footerimg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 3%;
+}
