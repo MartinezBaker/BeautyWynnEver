@@ -1,0 +1,276 @@
+$color-red: red;
+$color-white: white;
+$color-black: black;
+$color-gradient: rgba(0, 0, 0, 0.5);
+$color-modal-gradient: rgba(87, 82, 82, 0.5);
+$color-nav:  rgba(128, 128, 128, 0.5);
+$color-card: rgb(247, 244, 241);
+$color-modal: rgb(223, 215, 215);
+$color-shadow: rgba(0, 0, 0, 0.8);
+$font-1: 'DM Serif Display', sans-serif;
+$font-2: 'Allison', cursive;
+
+#intro {
+    background-image: linear-gradient(
+      $color-gradient,
+      $color-gradient
+    ), url(../images/cropped-bg-1.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+#intro-title {
+    font-family: $font-1;
+    color: $color-white;
+    font-size: 400%;
+    margin-top: 15%;
+    
+    text-align: center;
+    
+    
+    
+}
+
+#intro-sub {
+    font-family: $font-2;
+    color: $color-red;
+    font-size: 550%;
+    text-align: center;
+    margin-top: 3%;
+   
+}
+
+.button {
+    font-family: $font-1;
+    border-radius: 18px;
+    font-size: 30px;
+    background-color: transparent;
+    color: $color-white;
+    border: $color-white solid thin;
+    padding: 7px;
+    margin-top: 6%;
+}
+
+.button:hover {
+  border: $color-red solid thin;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  
+}
+
+.button:hover span {
+  padding-right: 25px;
+  color: $color-red;
+  
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+  color:$color-red;
+  
+}
+
+.button:focus {
+  outline: none;
+}
+
+#bookMeButton:focus {
+  outline: none;
+}
+
+#bookMeButton {
+  background-color: $color-black;
+  color:$color-white;
+  font-family: $font-1;
+  border-radius: 11px;
+  padding: 5px;
+  
+  
+}
+
+#bookMeButton:hover{
+  color:$color-red
+}
+
+.bg-1 {
+    background-color: $color-black;
+    background-image: linear-gradient(
+      $color-gradient,
+      $color-gradient
+    ), url(../images/color_temp_block_1600x.gif); 
+    background-size: 700px; 
+    background-repeat: no-repeat; 
+    background-position-x: center; 
+    background-attachment: fixed;
+    height: 600px;
+    width: auto;
+    
+   
+}
+
+.bg-2 {
+    background-image: url(../images/makeup-1195895.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 100%;
+    
+}
+
+.main-title {
+  font-family: $font-1;
+  font-size: 52px;
+  color: $color-white;
+  text-align: center;
+  padding-top:33%;
+  
+}
+
+.main-sub {
+  font-family: $font-2;
+  color: $color-red;
+  font-size: 50px;
+  text-align: center;
+  margin-right: 0%;
+  
+}
+
+.navbar {
+  background-color: $color-nav;
+}
+
+.nav-name{ 
+  color:$color-black;
+  font-family: $font-1;
+}
+
+.nav-name:hover{
+  color:$color-red;
+}
+
+.navbar-brand {
+  border-radius: 50px;
+}
+
+html, body {
+  overflow-x: unset;
+}
+
+.card-header {
+  font-family: $font-1; 
+  color: $color-white;
+  background-color: $color-black;
+}
+
+.modal-header {
+  color: $color-white;
+  background-color: $color-black;
+}
+
+.modal-content {
+  background-image:linear-gradient(
+      $color-modal-gradient,
+      $color-modal-gradient),  url(../images/powderbrush-1184842.jpg);
+  background-color: $color-modal;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: $color-white;
+  
+}
+
+
+
+.card {
+  box-shadow: 0 0 10px $color-shadow; 
+}
+
+.shadow-img {
+  box-shadow: 0 0 5px $color-shadow; 
+}
+
+
+.img-card {
+  background-color: $color-black;
+  color: $color-white;
+}
+
+.card {
+  background-color:$color-card;
+}
+
+h1, h2, h3, h5 {
+  font-family: $font-1; 
+}
+
+.header {
+  border: solid thin $color-white;
+  border-radius: 2%;
+  color: $color-white;
+  background-color: $color-black;
+  padding: 15px;
+  align-self: center;
+  justify-self: center;
+  box-shadow: 0 0 10px $color-shadow;
+}
+
+
+.services-card {
+  color:$color-white;
+  border: solid thin $color-white;
+  background-color: $color-black;
+  text-align: center;
+}
+
+strong {
+  color: $color-red;
+}
+
+.carousel { 
+  border: solid $color-black thin;
+  box-shadow: 0 0 15px $color-shadow;
+  margin-left: 25%;
+}
+
+.btn {
+  color: $color-white;
+  background-color: $color-black;
+  border: $color-black;
+  
+}
+
+footer {
+  padding: 70px;
+  background-color: $color-black;
+  background-image:  url(../images/footerimg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 3%;
+  color:$color-white;
+  border-top:  $color-red solid;
+}
+
+.email {
+  color:$color-white;
+}
+
+.email:hover {
+  color:$color-red;
+}

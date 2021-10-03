@@ -1,57 +1,41 @@
 #intro {
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url(../images/cropped-bg-1.jpg); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-}
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cropped-bg-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 #intro-title {
-    font-family: 'DM Serif Display', serif;
-    color: white;
-    font-size: 400%;
-    margin-top: 12%;
-    margin-left: 4%;
-    text-align: center;
-    
-    
-    
-}
+  font-family: "DM Serif Display", sans-serif;
+  color: white;
+  font-size: 400%;
+  margin-top: 15%;
+  text-align: center; }
 
 #intro-sub {
-    font-family: 'Allison', cursive;
-    color: red;
-    font-size: 550%;
-    text-align: center;
-    margin-top: 3%;
-   
-}
+  font-family: "Allison", cursive;
+  color: red;
+  font-size: 550%;
+  text-align: center;
+  margin-top: 3%; }
 
 .button {
-    font-family: 'DM Serif Display', serif;
-    border-radius: 18px;
-    font-size: 30px;
-    background-color: transparent;
-    color: white;
-    border: white solid thin;
-    padding: 7px;
-    margin-top: 3%;
-    margin-left: 45%;
-    
-}
+  font-family: "DM Serif Display", sans-serif;
+  border-radius: 18px;
+  font-size: 30px;
+  background-color: transparent;
+  color: white;
+  border: white solid thin;
+  padding: 7px;
+  margin-top: 6%; }
 
 .button:hover {
-  border: red solid thin;
-}
+  border: red solid thin; }
 
 .button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 0.5s;
-}
+  transition: 0.5s; }
 
 .button span:after {
   content: '\00bb';
@@ -59,155 +43,112 @@
   opacity: 0;
   top: 0;
   right: -20px;
-  transition: 0.5s;
-  
-}
+  transition: 0.5s; }
 
 .button:hover span {
   padding-right: 25px;
-  color: red;
-  
-}
+  color: red; }
 
 .button:hover span:after {
   opacity: 1;
   right: 0;
-  color:red;
-  
-}
+  color: red; }
 
 .button:focus {
-  outline: none;
-}
+  outline: none; }
 
 #bookMeButton:focus {
-  outline: none;
-}
+  outline: none; }
 
 #bookMeButton {
   background-color: black;
-  color:white;
-  font-family: 'DM Serif Display', serif;
+  color: white;
+  font-family: "DM Serif Display", sans-serif;
   border-radius: 11px;
-  padding: 5px;
-  
-  
-}
+  padding: 5px; }
 
-#bookMeButton:hover{
-  color:red
-}
+#bookMeButton:hover {
+  color: red; }
 
 .bg-1 {
-    background-color: black;
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url(../images/color_temp_block_1600x.gif); 
-    background-size: 700px; 
-    background-repeat: no-repeat; 
-    background-position-x: center; 
-    background-attachment: fixed;
-    height: 600px;
-    width: auto;
-    
-   
-}
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/color_temp_block_1600x.gif);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-attachment: fixed;
+  height: 600px;
+  width: auto; }
 
 .bg-2 {
-    background-image: url(../images/makeup-1195895.jpg);
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-    height: 100%;
-    
-}
+  background-image: url(../images/makeup-1195895.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%; }
 
 .main-title {
-  font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", sans-serif;
   font-size: 52px;
   color: white;
   text-align: center;
-  padding-top:33%;
-  
-}
+  padding-top: 33%; }
 
 .main-sub {
-  font-family: 'Allison', cursive;
+  font-family: "Allison", cursive;
   color: red;
   font-size: 50px;
   text-align: center;
-  margin-right: 0%;
-  
-}
+  margin-right: 0%; }
 
 .navbar {
-  background-color: rgba(128, 128, 128, 0.5);
-}
+  background-color: rgba(128, 128, 128, 0.5); }
 
-.nav-name{ 
-  color:black;
-  font-family: 'DM Serif Display', serif;
-}
+.nav-name {
+  color: black;
+  font-family: "DM Serif Display", sans-serif; }
 
-.nav-name:hover{
-  color:red;
-}
+.nav-name:hover {
+  color: red; }
 
 .navbar-brand {
-  border-radius: 50px;
-}
+  border-radius: 50px; }
 
 html, body {
-  overflow-x: unset;
-}
+  overflow-x: unset; }
 
 .card-header {
-  font-family: 'DM Serif Display', serif; 
+  font-family: "DM Serif Display", sans-serif;
   color: white;
-  background-color: black;
-}
+  background-color: black; }
 
 .modal-header {
   color: white;
-  background-color: black;
-}
+  background-color: black; }
 
 .modal-content {
-  background-image:linear-gradient(
-      rgba(87, 82, 82, 0.5),
-      rgba(87, 82, 82, 0.5)),  url(../images/powderbrush-1184842.jpg);
-  background-color: rgb(223, 215, 215);
+  background-image: linear-gradient(rgba(87, 82, 82, 0.5), rgba(87, 82, 82, 0.5)), url(../images/powderbrush-1184842.jpg);
+  background-color: #dfd7d7;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  color: white;
-  
-}
-
-
+  color: white; }
 
 .card {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
-}
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); }
 
 .shadow-img {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); 
-}
-
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); }
 
 .img-card {
   background-color: black;
-  color: white;
-}
+  color: white; }
 
 .card {
-  background-color:rgb(247, 244, 241)
-}
+  background-color: #f7f4f1; }
 
 h1, h2, h3, h5 {
-  font-family: 'DM Serif Display', serif; 
-}
+  font-family: "DM Serif Display", sans-serif; }
 
 .header {
   border: solid thin white;
@@ -217,53 +158,40 @@ h1, h2, h3, h5 {
   padding: 15px;
   align-self: center;
   justify-self: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-}
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); }
 
 .services-card {
-  color:white;
+  color: white;
   border: solid thin white;
   background-color: black;
-  text-align: center;
-}
+  text-align: center; }
 
 strong {
-  color: red;
-}
+  color: red; }
 
-.carousel { 
+.carousel {
   border: solid black thin;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
-  margin-left: 35%;
-}
+  margin-left: 25%; }
 
 .btn {
   color: white;
   background-color: black;
-  border: black;
-  
-}
+  border: black; }
 
 footer {
   padding: 70px;
   background-color: black;
-  background-image:  url(../images/footerimg.jpg);
+  background-image: url(../images/footerimg.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   margin-top: 3%;
-  color:white;
-  border-top:  red solid;
-}
+  color: white;
+  border-top: red solid; }
 
 .email {
-  color:white;
-}
+  color: white; }
 
 .email:hover {
-  color:red;
-}
-
-
-
+  color: red; }
