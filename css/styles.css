@@ -57,17 +57,17 @@
 .button:focus {
   outline: none; }
 
-#bookMeButton:focus {
+#contactMeButton:focus {
   outline: none; }
 
-#bookMeButton {
+#contactMeButton {
   background-color: black;
   color: white;
   font-family: "DM Serif Display", sans-serif;
   border-radius: 11px;
   padding: 5px; }
 
-#bookMeButton:hover {
+#contactMeButton:hover {
   color: red; }
 
 .bg-1 {
